@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4974553C1AAF1ED0008BBD3A /* RSAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974553B1AAF1ED0008BBD3A /* RSAppConstants.swift */; };
+		49D690DC1AAB02A600ADCB11 /* RSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D690DB1AAB02A600ADCB11 /* RSAppDelegate.swift */; };
+		49D690DE1AAB02A600ADCB11 /* RSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D690DD1AAB02A600ADCB11 /* RSMainViewController.swift */; };
+		49D690E11AAB02A600ADCB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D690DF1AAB02A600ADCB11 /* Main.storyboard */; };
+		49D690E31AAB02A600ADCB11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D690E21AAB02A600ADCB11 /* Images.xcassets */; };
+		49D690E61AAB02A600ADCB11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D690E41AAB02A600ADCB11 /* LaunchScreen.xib */; };
+		49D690F21AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D690F11AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49D690EC1AAB02A700ADCB11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D690CE1AAB02A600ADCB11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D690D51AAB02A600ADCB11;
+			remoteInfo = ActiveMetabolicRateCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4974553B1AAF1ED0008BBD3A /* RSAppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSAppConstants.swift; sourceTree = "<group>"; };
+		49D690D61AAB02A600ADCB11 /* ActiveMetabolicRateCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActiveMetabolicRateCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D690DA1AAB02A600ADCB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D690DB1AAB02A600ADCB11 /* RSAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAppDelegate.swift; sourceTree = "<group>"; };
+		49D690DD1AAB02A600ADCB11 /* RSMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSMainViewController.swift; sourceTree = "<group>"; };
+		49D690E01AAB02A600ADCB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49D690E21AAB02A600ADCB11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49D690E51AAB02A600ADCB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49D690EB1AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActiveMetabolicRateCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D690F01AAB02A700ADCB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D690F11AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveMetabolicRateCalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D690D31AAB02A600ADCB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D690E81AAB02A700ADCB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49D690CD1AAB02A600ADCB11 = {
+			isa = PBXGroup;
+			children = (
+				49D690D81AAB02A600ADCB11 /* ActiveMetabolicRateCalculator */,
+				49D690EE1AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests */,
+				49D690D71AAB02A600ADCB11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49D690D71AAB02A600ADCB11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D690D61AAB02A600ADCB11 /* ActiveMetabolicRateCalculator.app */,
+				49D690EB1AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D690D81AAB02A600ADCB11 /* ActiveMetabolicRateCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				49D690DB1AAB02A600ADCB11 /* RSAppDelegate.swift */,
+				49D690DD1AAB02A600ADCB11 /* RSMainViewController.swift */,
+				49D690DF1AAB02A600ADCB11 /* Main.storyboard */,
+				4974553B1AAF1ED0008BBD3A /* RSAppConstants.swift */,
+				49D690D91AAB02A600ADCB11 /* Supporting Files */,
+			);
+			path = ActiveMetabolicRateCalculator;
+			sourceTree = "<group>";
+		};
+		49D690D91AAB02A600ADCB11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49D690E21AAB02A600ADCB11 /* Images.xcassets */,
+				49D690E41AAB02A600ADCB11 /* LaunchScreen.xib */,
+				49D690DA1AAB02A600ADCB11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49D690EE1AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				49D690F11AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests.swift */,
+				49D690EF1AAB02A700ADCB11 /* Supporting Files */,
+			);
+			path = ActiveMetabolicRateCalculatorTests;
+			sourceTree = "<group>";
+		};
+		49D690EF1AAB02A700ADCB11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49D690F01AAB02A700ADCB11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D690D51AAB02A600ADCB11 /* ActiveMetabolicRateCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D690F51AAB02A700ADCB11 /* Build configuration list for PBXNativeTarget "ActiveMetabolicRateCalculator" */;
+			buildPhases = (
+				49D690D21AAB02A600ADCB11 /* Sources */,
+				49D690D31AAB02A600ADCB11 /* Frameworks */,
+				49D690D41AAB02A600ADCB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActiveMetabolicRateCalculator;
+			productName = ActiveMetabolicRateCalculator;
+			productReference = 49D690D61AAB02A600ADCB11 /* ActiveMetabolicRateCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49D690EA1AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D690F81AAB02A700ADCB11 /* Build configuration list for PBXNativeTarget "ActiveMetabolicRateCalculatorTests" */;
+			buildPhases = (
+				49D690E71AAB02A700ADCB11 /* Sources */,
+				49D690E81AAB02A700ADCB11 /* Frameworks */,
+				49D690E91AAB02A700ADCB11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D690ED1AAB02A700ADCB11 /* PBXTargetDependency */,
+			);
+			name = ActiveMetabolicRateCalculatorTests;
+			productName = ActiveMetabolicRateCalculatorTests;
+			productReference = 49D690EB1AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D690CE1AAB02A600ADCB11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = rachelrockaway;
+				TargetAttributes = {
+					49D690D51AAB02A600ADCB11 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					49D690EA1AAB02A700ADCB11 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 49D690D51AAB02A600ADCB11;
+					};
+				};
+			};
+			buildConfigurationList = 49D690D11AAB02A600ADCB11 /* Build configuration list for PBXProject "ActiveMetabolicRateCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49D690CD1AAB02A600ADCB11;
+			productRefGroup = 49D690D71AAB02A600ADCB11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49D690D51AAB02A600ADCB11 /* ActiveMetabolicRateCalculator */,
+				49D690EA1AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D690D41AAB02A600ADCB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D690E11AAB02A600ADCB11 /* Main.storyboard in Resources */,
+				49D690E61AAB02A600ADCB11 /* LaunchScreen.xib in Resources */,
+				49D690E31AAB02A600ADCB11 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D690E91AAB02A700ADCB11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D690D21AAB02A600ADCB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D690DE1AAB02A600ADCB11 /* RSMainViewController.swift in Sources */,
+				4974553C1AAF1ED0008BBD3A /* RSAppConstants.swift in Sources */,
+				49D690DC1AAB02A600ADCB11 /* RSAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D690E71AAB02A700ADCB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D690F21AAB02A700ADCB11 /* ActiveMetabolicRateCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49D690ED1AAB02A700ADCB11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D690D51AAB02A600ADCB11 /* ActiveMetabolicRateCalculator */;
+			targetProxy = 49D690EC1AAB02A700ADCB11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49D690DF1AAB02A600ADCB11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D690E01AAB02A600ADCB11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49D690E41AAB02A600ADCB11 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D690E51AAB02A600ADCB11 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49D690F31AAB02A700ADCB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49D690F41AAB02A700ADCB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D690F61AAB02A700ADCB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ActiveMetabolicRateCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49D690F71AAB02A700ADCB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ActiveMetabolicRateCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49D690F91AAB02A700ADCB11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ActiveMetabolicRateCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActiveMetabolicRateCalculator.app/ActiveMetabolicRateCalculator";
+			};
+			name = Debug;
+		};
+		49D690FA1AAB02A700ADCB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ActiveMetabolicRateCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActiveMetabolicRateCalculator.app/ActiveMetabolicRateCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D690D11AAB02A600ADCB11 /* Build configuration list for PBXProject "ActiveMetabolicRateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D690F31AAB02A700ADCB11 /* Debug */,
+				49D690F41AAB02A700ADCB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D690F51AAB02A700ADCB11 /* Build configuration list for PBXNativeTarget "ActiveMetabolicRateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D690F61AAB02A700ADCB11 /* Debug */,
+				49D690F71AAB02A700ADCB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D690F81AAB02A700ADCB11 /* Build configuration list for PBXNativeTarget "ActiveMetabolicRateCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D690F91AAB02A700ADCB11 /* Debug */,
+				49D690FA1AAB02A700ADCB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D690CE1AAB02A600ADCB11 /* Project object */;
+}

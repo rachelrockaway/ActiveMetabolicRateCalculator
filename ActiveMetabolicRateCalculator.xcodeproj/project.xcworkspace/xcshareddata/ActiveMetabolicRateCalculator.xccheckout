@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9218D5D-9136-4DEC-A4DE-559D79023073</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ActiveMetabolicRateCalculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6C1111C530D3B4789E1E81F4A3364756773D2F0</key>
+		<string>https://github.com/rachelrockaway/Active-Metabolic-Rate-Calculator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ActiveMetabolicRateCalculator/ActiveMetabolicRateCalculator/ActiveMetabolicRateCalculator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6C1111C530D3B4789E1E81F4A3364756773D2F0</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rachelrockaway/Active-Metabolic-Rate-Calculator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6C1111C530D3B4789E1E81F4A3364756773D2F0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6C1111C530D3B4789E1E81F4A3364756773D2F0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Thinkful_Swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
