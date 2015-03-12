@@ -37,3 +37,5 @@ enum kUserActivityLevel: String {
     veryActive = "Very Active",
     extraActive = "Extra Active"
 }
+
+let kUserDefaultActiveMetabolicRate:Float = 2100
