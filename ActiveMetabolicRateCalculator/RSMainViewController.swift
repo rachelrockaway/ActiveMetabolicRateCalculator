@@ -31,7 +31,7 @@ class RSMainViewController: UIViewController {
     var userActivityLevel = kUserActivityLevel.sedentary
     var userActiveMetabolicRate:Float = kUserDefaultActiveMetabolicRate {
     didSet{
-        displayActiveMetabolicRate.text = "Active Metabolic Rate: \(userActiveMetabolicRate) calories"
+        displayActiveMetabolicRate.text = "\(userActiveMetabolicRate)"
         }
     }
     
@@ -61,7 +61,7 @@ class RSMainViewController: UIViewController {
         displayAge.text = "Age: \(userAge) years"
         displayHeight.text = "Height: \(userHeight) inches"
         displayWeight.text = "Weight: \(userWeight) pounds"
-        displayActiveMetabolicRate.text = "Active Metabolic Rate: \(userActiveMetabolicRate) calories"
+        displayActiveMetabolicRate.text = " \(userActiveMetabolicRate)"
     }
 
     @IBAction func genderChange(sender: UISegmentedControl) {
@@ -96,11 +96,11 @@ class RSMainViewController: UIViewController {
         case 0:
             userActivityLevel = kUserActivityLevel.sedentary
         case 1:
-            userActivityLevel = kUserActivityLevel.lightlyActive
+            userActivityLevel = kUserActivityLevel.light
         case 2:
-            userActivityLevel = kUserActivityLevel.veryActive
+            userActivityLevel = kUserActivityLevel.very
         case 3:
-            userActivityLevel = kUserActivityLevel.extraActive
+            userActivityLevel = kUserActivityLevel.extra
         default:
             userGender = kUserGender.female
         }
@@ -117,7 +117,7 @@ class RSMainViewController: UIViewController {
         let femaleWeightConstant:Float = 4.35
         let femaleHeightConstant:Float = 4.7
         let femaleAgeConstant:Float = 4.7
-        let femaleCalcConstant:Float = 665
+        let femaleCalcConstant:Float = 655
         
         var weightCalc = Float()
         var heightCalc = Float()
@@ -139,20 +139,20 @@ class RSMainViewController: UIViewController {
     
     func calculateActiveMetabolicRate() {
         let sedentaryConstant:Float = 1.2
-        let lightlyActiveConstant:Float = 1.375
-        let veryActiveConstant:Float = 1.725
-        let extraActiveConstant:Float = 1.9
+        let lightConstant:Float = 1.375
+        let veryConstant:Float = 1.725
+        let extraConstant:Float = 1.9
         
         switch userActivityLevel
         {
         case .sedentary:
             userActiveMetabolicRate = calculateBasalMetabolicRate() * sedentaryConstant
-        case .lightlyActive:
-            userActiveMetabolicRate = calculateBasalMetabolicRate() * lightlyActiveConstant
-        case .veryActive:
-            userActiveMetabolicRate = calculateBasalMetabolicRate() * veryActiveConstant
-        case .extraActive:
-            userActiveMetabolicRate = calculateBasalMetabolicRate() * extraActiveConstant
+        case .light:
+            userActiveMetabolicRate = calculateBasalMetabolicRate() * lightConstant
+        case .very:
+            userActiveMetabolicRate = calculateBasalMetabolicRate() * veryConstant
+        case .extra:
+            userActiveMetabolicRate = calculateBasalMetabolicRate() * extraConstant
     }
   }
 }

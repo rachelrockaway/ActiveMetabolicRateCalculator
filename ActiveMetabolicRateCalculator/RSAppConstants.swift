@@ -33,9 +33,9 @@ let kUserDefaultWeight = 120
 enum kUserActivityLevel: String {
     case
     sedentary = "Sedentary",
-    lightlyActive = "Lightly Active",
-    veryActive = "Very Active",
-    extraActive = "Extra Active"
+    light = "Light",
+    very = "Very",
+    extra = "Extra"
 }
 
 let kUserDefaultActiveMetabolicRate:Float = 2100
