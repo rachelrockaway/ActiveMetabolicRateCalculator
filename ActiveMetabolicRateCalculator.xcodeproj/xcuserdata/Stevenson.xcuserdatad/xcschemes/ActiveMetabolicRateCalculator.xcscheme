@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49D690D51AAB02A600ADCB11"
-               BuildableName = "ActiveMetabolicRateCalculator.app"
-               BlueprintName = "ActiveMetabolicRateCalculator"
+               BuildableName = "AMR Calc.app"
+               BlueprintName = "AMR Calc"
                ReferencedContainer = "container:ActiveMetabolicRateCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -57,8 +57,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49D690D51AAB02A600ADCB11"
-            BuildableName = "ActiveMetabolicRateCalculator.app"
-            BlueprintName = "ActiveMetabolicRateCalculator"
+            BuildableName = "AMR Calc.app"
+            BlueprintName = "AMR Calc"
             ReferencedContainer = "container:ActiveMetabolicRateCalculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49D690D51AAB02A600ADCB11"
-            BuildableName = "ActiveMetabolicRateCalculator.app"
-            BlueprintName = "ActiveMetabolicRateCalculator"
+            BuildableName = "AMR Calc.app"
+            BlueprintName = "AMR Calc"
             ReferencedContainer = "container:ActiveMetabolicRateCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,8 +94,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49D690D51AAB02A600ADCB11"
-            BuildableName = "ActiveMetabolicRateCalculator.app"
-            BlueprintName = "ActiveMetabolicRateCalculator"
+            BuildableName = "AMR Calc.app"
+            BlueprintName = "AMR Calc"
             ReferencedContainer = "container:ActiveMetabolicRateCalculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
