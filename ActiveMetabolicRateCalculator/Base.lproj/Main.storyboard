@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uPl-Ca-I2X">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -8,7 +8,7 @@
         <!--Main View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="RSMainViewController" customModule="ActiveMetabolicRateCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="RSMainViewController" customModule="AMR_Calc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Iz5-uR-7bP">
-                                <rect key="frame" x="61" y="89" width="198" height="29"/>
+                                <rect key="frame" x="61" y="45" width="198" height="29"/>
                                 <segments>
                                     <segment title="Male"/>
                                     <segment title="Female"/>
@@ -28,25 +28,25 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGS-x1-ysf">
-                                <rect key="frame" x="61" y="137" width="198" height="21"/>
+                                <rect key="frame" x="61" y="93" width="198" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgX-IH-IdL">
-                                <rect key="frame" x="61" y="216" width="198" height="21"/>
+                                <rect key="frame" x="61" y="172" width="198" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgo-c0-m9p">
-                                <rect key="frame" x="61" y="295" width="198" height="21"/>
+                                <rect key="frame" x="61" y="251" width="198" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NKO-jg-SkC">
-                                <rect key="frame" x="22" y="413" width="276" height="58"/>
+                                <rect key="frame" x="22" y="369" width="276" height="102"/>
                                 <segments>
                                     <segment title="Sedentary"/>
                                     <segment title="Light"/>
@@ -57,26 +57,20 @@
                                     <action selector="activityChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="u7m-vO-ywU"/>
                                 </connections>
                             </segmentedControl>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="72" minValue="1" maxValue="120" translatesAutoresizingMaskIntoConstraints="NO" id="Z3Z-qJ-lDs">
-                                <rect key="frame" x="59" y="245" width="202" height="31"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="72" minValue="24" maxValue="107" translatesAutoresizingMaskIntoConstraints="NO" id="Z3Z-qJ-lDs">
+                                <rect key="frame" x="34" y="201" width="252" height="31"/>
                                 <connections>
                                     <action selector="heightChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="F7a-yX-16e"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="1" maxValue="120" translatesAutoresizingMaskIntoConstraints="NO" id="kcn-RN-3Z8">
-                                <rect key="frame" x="59" y="166" width="202" height="31"/>
+                                <rect key="frame" x="34" y="122" width="252" height="31"/>
                                 <connections>
                                     <action selector="ageChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Wux-gI-N9u"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="120" minValue="0.0" maxValue="400" translatesAutoresizingMaskIntoConstraints="NO" id="mIG-Wq-qvr">
-                                <rect key="frame" x="59" y="324" width="202" height="31"/>
-                                <connections>
-                                    <action selector="weightChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="f9K-C4-G6q"/>
-                                </connections>
-                            </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercise Level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KpR-n0-gX5">
-                                <rect key="frame" x="105" y="374" width="110" height="21"/>
+                                <rect key="frame" x="105" y="330" width="110" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -98,6 +92,12 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="120" minValue="70" maxValue="400" translatesAutoresizingMaskIntoConstraints="NO" id="mIG-Wq-qvr">
+                                <rect key="frame" x="34" y="280" width="252" height="31"/>
+                                <connections>
+                                    <action selector="weightChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="f9K-C4-G6q"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="0.19020858789808551" green="0.52637838547181826" blue="0.81928604014598538" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -113,11 +113,11 @@
                             <constraint firstItem="xdT-ZN-ZoP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="ABF-qz-tbV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Iz5-uR-7bP" secondAttribute="trailing" constant="45" id="CiB-J1-HeW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xdT-ZN-ZoP" secondAttribute="trailing" constant="20" id="CtV-33-pj9"/>
-                            <constraint firstItem="mIG-Wq-qvr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="EX4-IJ-jmX"/>
+                            <constraint firstItem="mIG-Wq-qvr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="EX4-IJ-jmX"/>
                             <constraint firstItem="xgX-IH-IdL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="152" id="FLe-bd-jIJ"/>
                             <constraint firstItem="cgo-c0-m9p" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="Ieo-Eu-sqS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kcn-RN-3Z8" secondAttribute="trailing" constant="45" id="Jbh-U8-T6l"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mIG-Wq-qvr" secondAttribute="trailing" constant="45" id="OJ9-0a-RJ4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kcn-RN-3Z8" secondAttribute="trailing" constant="20" id="Jbh-U8-T6l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mIG-Wq-qvr" secondAttribute="trailing" constant="20" id="OJ9-0a-RJ4"/>
                             <constraint firstItem="Iz5-uR-7bP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="SBH-9B-Qog"/>
                             <constraint firstItem="NKO-jg-SkC" firstAttribute="top" secondItem="KpR-n0-gX5" secondAttribute="bottom" constant="18" id="VVn-nJ-ACt"/>
                             <constraint firstItem="xgX-IH-IdL" firstAttribute="top" secondItem="kcn-RN-3Z8" secondAttribute="bottom" constant="20" id="VaA-sQ-hch"/>
@@ -125,16 +125,16 @@
                             <constraint firstItem="Z3Z-qJ-lDs" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="181" id="WIv-GQ-aoj"/>
                             <constraint firstItem="xdT-ZN-ZoP" firstAttribute="top" secondItem="kYZ-pR-4Q3" secondAttribute="bottom" constant="8" id="Wvf-BP-fIv"/>
                             <constraint firstItem="mIG-Wq-qvr" firstAttribute="top" secondItem="cgo-c0-m9p" secondAttribute="bottom" constant="8" id="YMN-5s-Vpt"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Z3Z-qJ-lDs" secondAttribute="trailing" constant="45" id="ZCo-wQ-sdN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z3Z-qJ-lDs" secondAttribute="trailing" constant="20" id="ZCo-wQ-sdN"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3ao-bg-XHf" secondAttribute="bottom" constant="13" id="bBC-9c-Atk"/>
                             <constraint firstItem="kYZ-pR-4Q3" firstAttribute="top" secondItem="NKO-jg-SkC" secondAttribute="bottom" constant="20" id="cLo-mg-DkK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kYZ-pR-4Q3" secondAttribute="trailing" constant="6" id="f1b-Dc-6eb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zGS-x1-ysf" secondAttribute="trailing" constant="45" id="fJt-Q3-2cj"/>
                             <constraint firstItem="KpR-n0-gX5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="310" id="g0d-0P-O27"/>
-                            <constraint firstItem="kcn-RN-3Z8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="hMn-KW-plf"/>
+                            <constraint firstItem="kcn-RN-3Z8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="hMn-KW-plf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="NKO-jg-SkC" secondAttribute="trailing" constant="6" id="iis-6F-u3p"/>
                             <constraint firstItem="mIG-Wq-qvr" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="260" id="lTs-0v-mlq"/>
-                            <constraint firstItem="Z3Z-qJ-lDs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="oUI-tW-SI0"/>
+                            <constraint firstItem="Z3Z-qJ-lDs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="oUI-tW-SI0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3ao-bg-XHf" secondAttribute="trailing" constant="6" id="pNj-pK-hk4"/>
                             <constraint firstItem="zGS-x1-ysf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="qf8-2r-43B"/>
                             <constraint firstItem="xgX-IH-IdL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="qz6-wH-g9l"/>
@@ -160,25 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476" y="92"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="LZW-8W-Aau">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uPl-Ca-I2X" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Pj-xD-e2i">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="tvm-9V-pFh"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HID-e0-yms" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="42" y="31"/>
+            <point key="canvasLocation" x="545" y="50"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

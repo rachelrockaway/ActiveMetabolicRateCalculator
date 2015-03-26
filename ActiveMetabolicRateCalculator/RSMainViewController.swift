@@ -71,24 +71,24 @@ class RSMainViewController: UIViewController {
         default:
             userGender = kUserGender.female
         }
-        println(userGender.rawValue)
-        println(calculateActiveMetabolicRate())        
+        (userGender.rawValue)
+        (calculateActiveMetabolicRate())        
     }
  
     @IBAction func ageChange(sender: UISlider) {
         userAge = Int(sender.value)
-        println(calculateActiveMetabolicRate())
+        (calculateActiveMetabolicRate())
     }
     
     @IBAction func heightChange(sender: UISlider) {
         userHeight = Int(sender.value)
-        println(calculateActiveMetabolicRate())
+        (calculateActiveMetabolicRate())
     }
     
     
     @IBAction func weightChange(sender: UISlider) {
         userWeight = Int(sender.value)
-        println(calculateActiveMetabolicRate())
+        (calculateActiveMetabolicRate())
     }
     
     @IBAction func activityChange(sender: AnyObject) {
@@ -104,8 +104,8 @@ class RSMainViewController: UIViewController {
         default:
             userGender = kUserGender.female
         }
-        println(userActivityLevel.rawValue)
-        println(calculateActiveMetabolicRate())
+        (userActivityLevel.rawValue)
+        (calculateActiveMetabolicRate())
     }
  
     func calculateBasalMetabolicRate() -> Float {
