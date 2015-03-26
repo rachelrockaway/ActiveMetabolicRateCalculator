@@ -49,7 +49,9 @@ class RSMainViewController: UIViewController {
     
     @IBOutlet weak var displayActiveMetabolicRate: UILabel!
     
+    @IBOutlet weak var activeMetabolicRateLabel: UILabel!
     
+    @IBOutlet weak var caloriesPerDayLabel: UILabel!
     //Actions
     
     override func viewDidLoad() {
@@ -62,6 +64,14 @@ class RSMainViewController: UIViewController {
         displayHeight.text = "Height: \(userHeight) inches"
         displayWeight.text = "Weight: \(userWeight) pounds"
         displayActiveMetabolicRate.text = " \(userActiveMetabolicRate)"
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        activityLevelSegmentedControl.frame.size.height = view.frame.height * 0.08
+        activeMetabolicRateLabel.frame.origin.y = activityLevelSegmentedControl.frame.origin.y + view.frame.height * 0.1
+        displayActiveMetabolicRate.frame.origin.y = activeMetabolicRateLabel.frame.origin.y + view.frame.height * 0.1
+        caloriesPerDayLabel.frame.origin.y = displayActiveMetabolicRate.frame.origin.y + view.frame.height * 0.1
     }
 
     @IBAction func genderChange(sender: UISegmentedControl) {

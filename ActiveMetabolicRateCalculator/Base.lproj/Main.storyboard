@@ -46,7 +46,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NKO-jg-SkC">
-                                <rect key="frame" x="22" y="369" width="276" height="102"/>
+                                <rect key="frame" x="22" y="369" width="276" height="100"/>
                                 <segments>
                                     <segment title="Sedentary"/>
                                     <segment title="Light"/>
@@ -76,7 +76,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Metabolic Rate:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYZ-pR-4Q3">
-                                <rect key="frame" x="22" y="490" width="276" height="28"/>
+                                <rect key="frame" x="22" y="473" width="276" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -87,12 +87,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="calories per day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ao-bg-XHf">
-                                <rect key="frame" x="22" y="534" width="276" height="21"/>
+                                <rect key="frame" x="22" y="517" width="276" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="120" minValue="70" maxValue="400" translatesAutoresizingMaskIntoConstraints="NO" id="mIG-Wq-qvr">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="120" minValue="70" maxValue="300" translatesAutoresizingMaskIntoConstraints="NO" id="mIG-Wq-qvr">
                                 <rect key="frame" x="34" y="280" width="252" height="31"/>
                                 <connections>
                                     <action selector="weightChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="f9K-C4-G6q"/>
@@ -126,8 +126,8 @@
                             <constraint firstItem="xdT-ZN-ZoP" firstAttribute="top" secondItem="kYZ-pR-4Q3" secondAttribute="bottom" constant="8" id="Wvf-BP-fIv"/>
                             <constraint firstItem="mIG-Wq-qvr" firstAttribute="top" secondItem="cgo-c0-m9p" secondAttribute="bottom" constant="8" id="YMN-5s-Vpt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Z3Z-qJ-lDs" secondAttribute="trailing" constant="20" id="ZCo-wQ-sdN"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3ao-bg-XHf" secondAttribute="bottom" constant="13" id="bBC-9c-Atk"/>
-                            <constraint firstItem="kYZ-pR-4Q3" firstAttribute="top" secondItem="NKO-jg-SkC" secondAttribute="bottom" constant="20" id="cLo-mg-DkK"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3ao-bg-XHf" secondAttribute="bottom" constant="30" id="bBC-9c-Atk"/>
+                            <constraint firstItem="kYZ-pR-4Q3" firstAttribute="top" secondItem="NKO-jg-SkC" secondAttribute="bottom" constant="5" id="cLo-mg-DkK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kYZ-pR-4Q3" secondAttribute="trailing" constant="6" id="f1b-Dc-6eb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zGS-x1-ysf" secondAttribute="trailing" constant="45" id="fJt-Q3-2cj"/>
                             <constraint firstItem="KpR-n0-gX5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="310" id="g0d-0P-O27"/>
@@ -150,7 +150,9 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="activeMetabolicRateLabel" destination="kYZ-pR-4Q3" id="TA1-DX-Fh0"/>
                         <outlet property="activityLevelSegmentedControl" destination="NKO-jg-SkC" id="LkC-A5-y0u"/>
+                        <outlet property="caloriesPerDayLabel" destination="3ao-bg-XHf" id="uU4-io-ONx"/>
                         <outlet property="displayActiveMetabolicRate" destination="xdT-ZN-ZoP" id="FCA-bJ-vqy"/>
                         <outlet property="displayAge" destination="zGS-x1-ysf" id="PSv-Sd-m1g"/>
                         <outlet property="displayHeight" destination="xgX-IH-IdL" id="o7W-Qd-eJg"/>
