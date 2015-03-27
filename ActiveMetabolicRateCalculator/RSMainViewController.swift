@@ -69,9 +69,9 @@ class RSMainViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         activityLevelSegmentedControl.frame.size.height = view.frame.height * 0.08
-        activeMetabolicRateLabel.frame.origin.y = activityLevelSegmentedControl.frame.origin.y + view.frame.height * 0.1
-        displayActiveMetabolicRate.frame.origin.y = activeMetabolicRateLabel.frame.origin.y + view.frame.height * 0.1
-        caloriesPerDayLabel.frame.origin.y = displayActiveMetabolicRate.frame.origin.y + view.frame.height * 0.1
+        activeMetabolicRateLabel.frame.origin.y = activityLevelSegmentedControl.frame.origin.y + view.frame.height * 0.12
+        displayActiveMetabolicRate.frame.origin.y = activeMetabolicRateLabel.frame.origin.y + view.frame.height * 0.08
+        caloriesPerDayLabel.frame.origin.y = displayActiveMetabolicRate.frame.origin.y + view.frame.height * 0.08
     }
 
     @IBAction func genderChange(sender: UISegmentedControl) {

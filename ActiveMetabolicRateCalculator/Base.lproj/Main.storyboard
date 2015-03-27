@@ -86,18 +86,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="calories per day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ao-bg-XHf">
-                                <rect key="frame" x="22" y="517" width="276" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="120" minValue="70" maxValue="300" translatesAutoresizingMaskIntoConstraints="NO" id="mIG-Wq-qvr">
                                 <rect key="frame" x="34" y="280" width="252" height="31"/>
                                 <connections>
                                     <action selector="weightChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="f9K-C4-G6q"/>
                                 </connections>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="calories per day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ao-bg-XHf">
+                                <rect key="frame" x="96" y="517" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.19020858789808551" green="0.52637838547181826" blue="0.81928604014598538" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -115,6 +115,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="xdT-ZN-ZoP" secondAttribute="trailing" constant="20" id="CtV-33-pj9"/>
                             <constraint firstItem="mIG-Wq-qvr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="EX4-IJ-jmX"/>
                             <constraint firstItem="xgX-IH-IdL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="152" id="FLe-bd-jIJ"/>
+                            <constraint firstItem="3ao-bg-XHf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="80" id="GOu-Kc-FJt"/>
                             <constraint firstItem="cgo-c0-m9p" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="Ieo-Eu-sqS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kcn-RN-3Z8" secondAttribute="trailing" constant="20" id="Jbh-U8-T6l"/>
                             <constraint firstAttribute="trailingMargin" secondItem="mIG-Wq-qvr" secondAttribute="trailing" constant="20" id="OJ9-0a-RJ4"/>
@@ -134,11 +135,10 @@
                             <constraint firstItem="kcn-RN-3Z8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="hMn-KW-plf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="NKO-jg-SkC" secondAttribute="trailing" constant="6" id="iis-6F-u3p"/>
                             <constraint firstItem="mIG-Wq-qvr" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="260" id="lTs-0v-mlq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3ao-bg-XHf" secondAttribute="trailing" constant="79" id="nMA-pz-vMd"/>
                             <constraint firstItem="Z3Z-qJ-lDs" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="oUI-tW-SI0"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="3ao-bg-XHf" secondAttribute="trailing" constant="6" id="pNj-pK-hk4"/>
                             <constraint firstItem="zGS-x1-ysf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="qf8-2r-43B"/>
                             <constraint firstItem="xgX-IH-IdL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="qz6-wH-g9l"/>
-                            <constraint firstItem="3ao-bg-XHf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="6" id="rDw-Hn-AqI"/>
                             <constraint firstItem="Iz5-uR-7bP" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="25" id="sNX-4Q-EWR"/>
                             <constraint firstItem="KpR-n0-gX5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="89" id="vl7-dy-xO7"/>
                             <constraint firstAttribute="centerX" secondItem="Iz5-uR-7bP" secondAttribute="centerX" id="wWH-Jg-Qet"/>
@@ -162,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="545" y="50"/>
+            <point key="canvasLocation" x="545" y="65"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
