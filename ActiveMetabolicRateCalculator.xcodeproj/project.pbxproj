@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		497086321AC5209600246F88 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497086311AC5209600246F88 /* Result.swift */; };
+		497086341AC5222C00246F88 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497086331AC5222C00246F88 /* ResultsTableViewController.swift */; };
 		4974553C1AAF1ED0008BBD3A /* RSAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4974553B1AAF1ED0008BBD3A /* RSAppConstants.swift */; };
 		49D690DC1AAB02A600ADCB11 /* RSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D690DB1AAB02A600ADCB11 /* RSAppDelegate.swift */; };
 		49D690DE1AAB02A600ADCB11 /* RSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D690DD1AAB02A600ADCB11 /* RSMainViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		497086311AC5209600246F88 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		497086331AC5222C00246F88 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		4974553B1AAF1ED0008BBD3A /* RSAppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSAppConstants.swift; sourceTree = "<group>"; };
 		49D690D61AAB02A600ADCB11 /* AMR Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AMR Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D690DA1AAB02A600ADCB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			children = (
 				49D690DB1AAB02A600ADCB11 /* RSAppDelegate.swift */,
 				49D690DD1AAB02A600ADCB11 /* RSMainViewController.swift */,
+				497086331AC5222C00246F88 /* ResultsTableViewController.swift */,
+				497086311AC5209600246F88 /* Result.swift */,
 				49D690DF1AAB02A600ADCB11 /* Main.storyboard */,
 				4974553B1AAF1ED0008BBD3A /* RSAppConstants.swift */,
 				49D690D91AAB02A600ADCB11 /* Supporting Files */,
@@ -219,7 +225,9 @@
 			files = (
 				49D690DE1AAB02A600ADCB11 /* RSMainViewController.swift in Sources */,
 				4974553C1AAF1ED0008BBD3A /* RSAppConstants.swift in Sources */,
+				497086321AC5209600246F88 /* Result.swift in Sources */,
 				49D690DC1AAB02A600ADCB11 /* RSAppDelegate.swift in Sources */,
+				497086341AC5222C00246F88 /* ResultsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
