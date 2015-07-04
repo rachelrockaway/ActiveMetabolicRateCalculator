@@ -83,11 +83,11 @@
 		49D690D81AAB02A600ADCB11 /* ActiveMetabolicRateCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				49D690DF1AAB02A600ADCB11 /* Main.storyboard */,
 				49D690DB1AAB02A600ADCB11 /* RSAppDelegate.swift */,
 				49D690DD1AAB02A600ADCB11 /* RSMainViewController.swift */,
 				497086331AC5222C00246F88 /* ResultsTableViewController.swift */,
 				497086311AC5209600246F88 /* Result.swift */,
-				49D690DF1AAB02A600ADCB11 /* Main.storyboard */,
 				4974553B1AAF1ED0008BBD3A /* RSAppConstants.swift */,
 				49D690D91AAB02A600ADCB11 /* Supporting Files */,
 			);
@@ -352,8 +352,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Rachel Stevenson (7VB7L3Q632)";
 				INFOPLIST_FILE = ActiveMetabolicRateCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "AMR Calc";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -363,8 +365,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Rachel Stevenson (7VB7L3Q632)";
 				INFOPLIST_FILE = ActiveMetabolicRateCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "AMR Calc";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

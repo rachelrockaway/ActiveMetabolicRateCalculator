@@ -68,10 +68,7 @@ class RSMainViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        activityLevelSegmentedControl.frame.size.height = view.frame.height * 0.08
-        activeMetabolicRateLabel.frame.origin.y = activityLevelSegmentedControl.frame.origin.y + view.frame.height * 0.1
-        displayActiveMetabolicRate.frame.origin.y = activeMetabolicRateLabel.frame.origin.y + view.frame.height * 0.04
-        caloriesPerDayLabel.frame.origin.y = displayActiveMetabolicRate.frame.origin.y + view.frame.height * 0.06
+
     }
 
     @IBAction func genderChange(sender: UISegmentedControl) {
@@ -119,15 +116,15 @@ class RSMainViewController: UIViewController {
     }
  
     func calculateBasalMetabolicRate() -> Float {
-        let maleWeightConstant:Float = 6.23
-        let maleHeightConstant:Float = 12.7
-        let maleAgeConstant:Float = 6.8
-        let maleCalcConstant:Float = 66
+        let maleWeightConstant:Float = 10
+        let maleHeightConstant:Float = 6.25
+        let maleAgeConstant:Float = 5
+        let maleCalcConstant:Float = 5
         
-        let femaleWeightConstant:Float = 4.35
-        let femaleHeightConstant:Float = 4.7
-        let femaleAgeConstant:Float = 4.7
-        let femaleCalcConstant:Float = 655
+        let femaleWeightConstant:Float = 10
+        let femaleHeightConstant:Float = 6.25
+        let femaleAgeConstant:Float = 5
+        let femaleCalcConstant:Float = -161
         
         var weightCalc = Float()
         var heightCalc = Float()

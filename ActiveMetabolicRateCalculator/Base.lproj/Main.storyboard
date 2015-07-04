@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="l6Y-8Y-LIh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="l6Y-8Y-LIh">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -46,7 +46,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NKO-jg-SkC">
-                                <rect key="frame" x="22" y="413" width="276" height="56"/>
+                                <rect key="frame" x="22" y="413" width="276" height="29"/>
                                 <segments>
                                     <segment title="Sedentary"/>
                                     <segment title="Light"/>
@@ -75,13 +75,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Metabolic Rate:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYZ-pR-4Q3">
-                                <rect key="frame" x="22" y="473" width="276" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Active Metabolic Rate:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYZ-pR-4Q3">
+                                <rect key="frame" x="22" y="455" width="276" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdT-ZN-ZoP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdT-ZN-ZoP">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -92,23 +92,12 @@
                                     <action selector="weightChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="f9K-C4-G6q"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="calories per day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ao-bg-XHf">
-                                <rect key="frame" x="96" y="517" width="129" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="calories per day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ao-bg-XHf">
+                                <rect key="frame" x="96" y="521" width="129" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6I-uy-c0a">
-                                <rect key="frame" x="96" y="538" width="122" height="35"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="Log AMR">
-                                    <color key="titleColor" red="0.4634902139" green="0.96359999289999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="SRx-Rj-XxD" kind="push" id="S7d-I5-wYe"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.19020858789808551" green="0.52637838547181826" blue="0.81928604014598538" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -119,10 +108,8 @@
                             <constraint firstItem="KpR-n0-gX5" firstAttribute="top" secondItem="mIG-Wq-qvr" secondAttribute="bottom" constant="20" id="3CJ-G4-5As"/>
                             <constraint firstItem="Z3Z-qJ-lDs" firstAttribute="top" secondItem="xgX-IH-IdL" secondAttribute="bottom" constant="8" id="3dp-f4-7cK"/>
                             <constraint firstItem="kYZ-pR-4Q3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="6" id="4wY-7i-nnG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="V6I-uy-c0a" secondAttribute="trailing" constant="86" id="5QR-gn-K02"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cgo-c0-m9p" secondAttribute="trailing" constant="45" id="5s1-aw-xjf"/>
                             <constraint firstItem="cgo-c0-m9p" firstAttribute="top" secondItem="Z3Z-qJ-lDs" secondAttribute="bottom" constant="20" id="8lz-4R-Vwy"/>
-                            <constraint firstItem="V6I-uy-c0a" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="80" id="9O5-gq-6kg"/>
                             <constraint firstItem="xdT-ZN-ZoP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="ABF-qz-tbV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Iz5-uR-7bP" secondAttribute="trailing" constant="45" id="CiB-J1-HeW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xdT-ZN-ZoP" secondAttribute="trailing" constant="20" id="CtV-33-pj9"/>
@@ -130,9 +117,10 @@
                             <constraint firstItem="xgX-IH-IdL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="152" id="FLe-bd-jIJ"/>
                             <constraint firstItem="3ao-bg-XHf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="80" id="GOu-Kc-FJt"/>
                             <constraint firstItem="cgo-c0-m9p" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="Ieo-Eu-sqS"/>
-                            <constraint firstItem="V6I-uy-c0a" firstAttribute="top" secondItem="3ao-bg-XHf" secondAttribute="bottom" id="JI8-Rq-0xo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kcn-RN-3Z8" secondAttribute="trailing" constant="20" id="Jbh-U8-T6l"/>
+                            <constraint firstItem="kYZ-pR-4Q3" firstAttribute="top" secondItem="NKO-jg-SkC" secondAttribute="bottom" constant="12" id="LVB-rX-XaH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="mIG-Wq-qvr" secondAttribute="trailing" constant="20" id="OJ9-0a-RJ4"/>
+                            <constraint firstItem="3ao-bg-XHf" firstAttribute="top" secondItem="kYZ-pR-4Q3" secondAttribute="bottom" constant="38" id="OsO-Ga-76x"/>
                             <constraint firstItem="Iz5-uR-7bP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="45" id="SBH-9B-Qog"/>
                             <constraint firstItem="NKO-jg-SkC" firstAttribute="top" secondItem="KpR-n0-gX5" secondAttribute="bottom" constant="18" id="VVn-nJ-ACt"/>
                             <constraint firstItem="xgX-IH-IdL" firstAttribute="top" secondItem="kcn-RN-3Z8" secondAttribute="bottom" constant="20" id="VaA-sQ-hch"/>
@@ -141,8 +129,6 @@
                             <constraint firstItem="xdT-ZN-ZoP" firstAttribute="top" secondItem="kYZ-pR-4Q3" secondAttribute="bottom" constant="8" id="Wvf-BP-fIv"/>
                             <constraint firstItem="mIG-Wq-qvr" firstAttribute="top" secondItem="cgo-c0-m9p" secondAttribute="bottom" constant="8" id="YMN-5s-Vpt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Z3Z-qJ-lDs" secondAttribute="trailing" constant="20" id="ZCo-wQ-sdN"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3ao-bg-XHf" secondAttribute="bottom" constant="30" id="bBC-9c-Atk"/>
-                            <constraint firstItem="kYZ-pR-4Q3" firstAttribute="top" secondItem="NKO-jg-SkC" secondAttribute="bottom" constant="5" id="cLo-mg-DkK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kYZ-pR-4Q3" secondAttribute="trailing" constant="6" id="f1b-Dc-6eb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="zGS-x1-ysf" secondAttribute="trailing" constant="45" id="fJt-Q3-2cj"/>
                             <constraint firstItem="KpR-n0-gX5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="310" id="g0d-0P-O27"/>
