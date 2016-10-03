@@ -166,7 +166,8 @@
 		49D690CE1AAB02A600ADCB11 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = rachelrockaway;
 				TargetAttributes = {
 					49D690D51AAB02A600ADCB11 = {
@@ -289,6 +290,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -353,6 +355,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Rachel Stevenson (7VB7L3Q632)";
 				INFOPLIST_FILE = ActiveMetabolicRateCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachelrockaway.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "AMR Calc";
 			};
 			name = Debug;
@@ -364,6 +367,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Rachel Stevenson (7VB7L3Q632)";
 				INFOPLIST_FILE = ActiveMetabolicRateCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachelrockaway.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "AMR Calc";
 			};
 			name = Release;
@@ -383,6 +387,7 @@
 				);
 				INFOPLIST_FILE = ActiveMetabolicRateCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachelrockaway.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ActiveMetabolicRateCalculatorTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActiveMetabolicRateCalculator.app/ActiveMetabolicRateCalculator";
 			};
@@ -399,6 +404,7 @@
 				);
 				INFOPLIST_FILE = ActiveMetabolicRateCalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachelrockaway.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ActiveMetabolicRateCalculatorTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActiveMetabolicRateCalculator.app/ActiveMetabolicRateCalculator";
 			};
